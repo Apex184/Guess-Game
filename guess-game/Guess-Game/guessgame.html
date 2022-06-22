@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Game</title>
+    <style>
+        .container{
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .guess{
+            display: flex;
+        }
+        button{
+            cursor: pointer;
+            margin-top: 7px;
+        }
+
+        small{
+            
+            margin-top: 5px;
+            font-size: 25px;
+        }
+      
+    </style>
+</head>
+
+<body>
+    <section class="container">
+    <h2>Guess Game</h2>
+    <p>We have selected a random number between 1 and 100. <br>See if you can guess it in 10 turns or fewer.<br> We'll tell you if your guess was too high or too low.</p>
+    <label class="gues">Enter A Guess</label>
+    <input type="text" id="inp"><button id="submit">Submit guess</button>
+    
+        <small id="show-text"></small>
+        <small id="guess"></small>
+        <small id="lResult"></small>
+        <small id="lowOrHi_Result"></small>
+        <small id="guessSubmit'"></small>
+    
+   
+
+</section>
+    <script src="guessgame.js"></script>
+</body>
+</html>
