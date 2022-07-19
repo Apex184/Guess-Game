@@ -2,7 +2,7 @@
     // let textInput = Number(document.getElementById("inp").value);
 
        
-
+  let test = '';
     let textInput = Number(document.getElementById("inp").value);
     const btn = document.getElementById("submit");
     let randomNumber = Math.floor(Math.random() * 100 +1);
